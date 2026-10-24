@@ -277,18 +277,6 @@
           "wind_speed_entity_id": "Obbligatoria solo quando la velocità del vento esterna manuale è attiva."
         }
       },
-      "basic": {
-        "title": "Impostazioni base",
-        "description": "Tieni qui i controlli quotidiani.",
-        "data": {
-          "outdoor_weather_entity_id": "Sorgente meteo",
-          "notification_device_id": "Dispositivi da notificare"
-        },
-        "data_description": {
-          "outdoor_weather_entity_id": "Seleziona l'entità meteo standard di Home Assistant che VentWise può usare oggi. Se non vedi la sorgente che ti serve, apri una issue su GitHub.",
-          "notification_device_id": "Facoltativo. Seleziona uno o più dispositivi che riceveranno le notifiche."
-        }
-      },
       "outdoor": {
         "title": "Dati esterni",
         "description": "Usa le checkbox per decidere quali dati esterni arrivano da entità di Home Assistant invece che dal forecast.",
@@ -301,6 +289,18 @@
           "outdoor_temperature_override": "Attiva questa checkbox per inserire una temperatura manuale invece di usare il forecast.",
           "outdoor_humidity_override": "Attiva questa checkbox per inserire un'umidità manuale invece di usare il forecast.",
           "wind_speed_override": "Attiva questa checkbox per inserire una velocità del vento manuale invece di usare il forecast."
+        }
+      },
+      "basic": {
+        "title": "Impostazioni base",
+        "description": "Tieni qui i controlli quotidiani.",
+        "data": {
+          "outdoor_weather_entity_id": "Sorgente meteo",
+          "notification_device_id": "Dispositivi da notificare"
+        },
+        "data_description": {
+          "outdoor_weather_entity_id": "Seleziona l'entità meteo standard di Home Assistant che VentWise può usare oggi. Se non vedi la sorgente che ti serve, apri una issue su GitHub.",
+          "notification_device_id": "Facoltativo. Seleziona uno o più dispositivi che riceveranno le notifiche."
         }
       },
       "advanced": {
